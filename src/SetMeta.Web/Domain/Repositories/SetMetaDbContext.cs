@@ -27,6 +27,7 @@ namespace SetMeta.Web.Domain.Repositories
         public DbSet<Quarter> Quarters { get; set; }
         public DbSet<CreditCard> CreditCards { get; set; }
         public DbSet<Bank> Banks { get; set; }
+        public DbSet<MeasurementUnit> MeasurementUnits { get; set; }
 
     }
 }
